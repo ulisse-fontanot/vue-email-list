@@ -10,6 +10,7 @@ var app = new Vue({
           this.mail.push(result.data.response);
         })
       }
+      console.log(this.mail);
     }
   }
 });
